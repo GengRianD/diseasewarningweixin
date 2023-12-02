@@ -1,0 +1,11 @@
+.container {
+  width: 320rpx;
+  height: 180rpx;
+  border: 2rpx solid #ccc;
+  border-radius: 20rpx;
+}
+
+.container .serviceImage {
+  width: 100rpx;
+  height: 100rpx;
+}

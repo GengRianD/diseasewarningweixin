@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "LeftService": "/components/LeftService/LeftService",
+        "RightService": "/components/RightService/RightService"
+    }
+}

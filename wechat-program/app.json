@@ -1,0 +1,31 @@
+{
+    "pages": [
+        "pages/mainPage/mainPage",
+        "pages/userPage/userPage",
+        "pages/AscvdTestDetail/AscvdTestDetail"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "中山医院",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#cdcdcd",
+        "selectedColor": "#2c2c2c",
+        "list": [{
+                "pagePath": "pages/mainPage/mainPage",
+                "text": "首页",
+                "iconPath": "static/images/首页.png",
+                "selectedIconPath": "static/images/首页_填充.png"
+            },
+            {
+                "pagePath": "pages/userPage/userPage",
+                "text": "我的",
+                "iconPath": "static/images/我的.png",
+                "selectedIconPath": "static/images/我的_填充.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

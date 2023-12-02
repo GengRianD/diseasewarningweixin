@@ -1,0 +1,13 @@
+<view>
+  <text>选择头像</text>
+  <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+  <image class="avatar" src="{{photoUrl}}"></image>
+</button> 
+</view>
+
+<view>
+  <text>填写昵称</text>
+  <input type="nickname" model:value="{{nickName}}" class="weui-input" placeholder="请输入昵称"/>
+</view>
+
+

@@ -1,0 +1,8 @@
+<!--components/RightService/RightService.wxml-->
+<view class="container">
+  <view class="serviceTitle">{{sTitle}}</view>
+
+  <view class="serviceDescribe">{{sDescribe}}</view>
+
+  <image src="{{sImage}}" class="serviceImage"/>
+</view>
